@@ -48,7 +48,8 @@ gulp.task('scripts', function() {
 // BrowserSync
 gulp.task('serve', ['sass'], function() {
   browserSync.init({
-    server: "./"//,
+    server: "./",
+    notify: false//,
     //index: "index.html"
   });
 });
