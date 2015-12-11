@@ -28,7 +28,9 @@ gulp.task('prefix', function() {
 gulp.task('sass', function() {
   return gulp.src('_src/sass/*.sass')
     .pipe(plumber())
-    .pipe(sass(/*{outputStyle: 'compressed'}*/).on('error', sass.logError))
+    .pipe(sass({
+      outputStyle: 'expanded'
+    }).on('error', sass.logError))
     .pipe(prefix())
     .pipe(gulp.dest('assets/css'))
     .pipe(browserSync.stream());
