@@ -4,7 +4,7 @@
 
 1. Open project folder in your IDE
 2. Edit your `package.json`'s name and description with pertinent info
-3. `CMD` into your project directory and run `npm install`, then `npm update`\*
+3. `Terminal` into your project directory and run `npm install`, then `npm update`\*
 4. Decide if you want css output compressed or not (gulpfile.js sass task)
 5. While still in your project directory run `gulp`
 6. Open `index.html` and update the `title`
