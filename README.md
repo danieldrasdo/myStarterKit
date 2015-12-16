@@ -9,4 +9,4 @@
 5. Open `index.html` and update the `title`
 6. Open sass/js files within `_src`
 
-\* *takes a bit to install dev dependencies*
+\* *takes a bit to install dev dependencies. Node.js and Gulp are required to be installed.*
