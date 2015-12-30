@@ -33,7 +33,7 @@ gulp.task('scripts', function() {
 //Styles Task
 gulp.task('styles', function() {
   gulp.src('_src/sass/**/*.+(sass|scss)')
-    .pipe(sass({outputStyle: 'expanded'})
+    .pipe(sass({outputStyle: 'expanded'}))
     .on('error', errorLog)
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
