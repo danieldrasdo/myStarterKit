@@ -26,3 +26,4 @@ While still in your project directory, run the following command:
 2. The sass/js files within the `_src` directory are the files used while developing.
 3. Open `index.html` and update the `title`.
 4. Both the `assets/` directory and `index.html` are used in production.
+5. If you'd like, you could use Bower to grab the latest versions of jQuery, Angular, etc., but I personally like fetching those and linking them up in my html myself.
