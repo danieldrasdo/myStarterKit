@@ -21,7 +21,7 @@ gulp.task('scripts', function() {
     .pipe(concat('functions.js'))
     .on('error', errorLog)
     .pipe(jshint())
-    .pipe(jshint.reporter('default'));
+    .pipe(jshint.reporter('default'))
     .pipe(gulp.dest('assets/js'))
     .pipe(rename('functions.min.js'))
     .pipe(uglify())
