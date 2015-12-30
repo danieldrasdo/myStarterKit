@@ -8,9 +8,11 @@
 
 ##Install Packages
 
-After cloning the myStarterKit, `Terminal` into your project directory and run the following command to install all required node packages.\*<sup>1</sup>
+After cloning [myStarterKit](https://github.com/danieldrasdo/myStarterKit) to your computer, `Terminal` into your project directory and run the following command to install all required node packages.\*
 
 	npm install
+
+\* *You may need to use `sudo npm install`. Also, it may take a bit to install the devDependencies.*
 
 ##Start
 
@@ -24,5 +26,3 @@ While still in your project directory, run the following command:
 2. The sass/js files within the `_src` directory are the files used while developing.
 3. Open `index.html` and update the `title`.
 4. The both the `assets/` directory and `index.html` are used in production.
-
-\* *You may need to use `sudo npm install`. Also, it may take a bit to install the devDependencies.*
