@@ -25,4 +25,4 @@ While still in your project directory, run the following command:
 1. Open the project folder in your IDE.
 2. The sass/js files within the `_src` directory are the files used while developing.
 3. Open `index.html` and update the `title`.
-4. The both the `assets/` directory and `index.html` are used in production.
+4. Both the `assets/` directory and `index.html` are used in production.
