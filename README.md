@@ -20,6 +20,13 @@ While still in your project directory, run the following command:
 
 	gulp
 
+If that doesn't work, chances are you don't have gulp installed globally, which gives you the availability of using `gulp` on the command line. Try using the following command to install gulp globally:
+
+	npm install -g gulp
+
+Then try running `gulp` again.
+
+
 ####Notes
 
 1. Open the project folder in your IDE.
