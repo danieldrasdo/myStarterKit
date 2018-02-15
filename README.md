@@ -6,7 +6,7 @@
 
 	node -v
 
-##Install Packages
+## Install Packages
 
 After cloning [myStarterKit](https://github.com/danieldrasdo/myStarterKit) to your computer, `Terminal` into your project directory and run the following command to install all required node packages.\*
 
@@ -14,7 +14,7 @@ After cloning [myStarterKit](https://github.com/danieldrasdo/myStarterKit) to yo
 
 \* *You may need to use `sudo npm install`. Also, it may take a bit to install the devDependencies.*
 
-##Start
+## Start
 
 While still in your project directory, run the following command:
 
@@ -27,7 +27,7 @@ If that doesn't work, chances are you don't have gulp installed globally, which 
 Then try running `gulp` again.
 
 
-####Notes
+#### Notes
 
 1. Open the project folder in your IDE.
 2. The sass/js files within the `_src` directory are the files used while developing.
